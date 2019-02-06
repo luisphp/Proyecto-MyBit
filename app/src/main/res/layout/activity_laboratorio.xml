@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hurtado.luis.ejemplo.mybit.Laboratorio">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textopinLabora"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:clickable="true"
+        android:onClick="salto1"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:text="Laboratorio"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:clickable="true"
+                android:onClick="salto1"
+                android:background="@color/rojo_maeterail"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:text="A Jugar con Fuentes"
+                android:id="@+id/texto001"
+                android:textAlignment="center"
+                android:layout_gravity="left"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:textStyle="bold" />
+
+
+
+
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:layout_marginLeft="25dp"
+                android:background="@color/salmon"
+                android:text="ListView Personalizado"
+                android:id="@+id/texto002"
+                android:clickable="true"
+                android:onClick="salto2"
+                android:textAlignment="center"
+                android:layout_gravity="right"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:background="@color/morado_material"
+            android:text="En Construcción"
+            android:id="@+id/texto003"
+            android:clickable="true"
+            android:onClick="Navigation_Drawer"
+            android:textAlignment="center"
+            android:layout_gravity="left"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Homes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/homeicon"
+        android:background="#4D72DB"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

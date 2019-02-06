@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hurtado.luis.ejemplo.mybit.MenuDepartamentos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="180dp"
+       android:src="@drawable/contenido"
+       android:background="#581845"
+       android:layout_weight="1"
+       android:longClickable="true"
+       android:clickable="true"
+       android:onClick="Contenido" />
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/comercial"
+            android:background="#900C3F"
+        android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="Comercial" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/legal"
+            android:background="#C70039"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="Legal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/logistica"
+            android:background="#FF5733"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="Logistica" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/rrhh"
+            android:background="#FFC300"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="RRHH" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/mercadeo"
+            android:background="#17A589"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="Mercadeo" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#717D7E"
+                android:src="@drawable/tecnologia"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="Tecnologia" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#2C3E50"
+                android:src="@drawable/servicioalcliente"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="ServicioAlCliente" />
+
+        </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtparametro"
+        android:text=""
+        android:layout_height="wrap_content" />
+</LinearLayout>

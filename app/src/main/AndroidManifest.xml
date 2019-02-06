@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hurtado.luis.ejemplo.mybit">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bitapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Index"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Inicio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CambiarPass" />
+        <activity
+            android:name=".All_users"
+            android:label="Usuarios Registrados" />
+        <activity
+            android:name=".Empleados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuDepartamentos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyInfo"
+            android:label="Mi Información"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registrar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Procesos"
+            android:theme="@style/MiTema" />
+        <activity
+            android:name=".EditUser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditorDeUsuarios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TiempoLibre"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlantillaProcesos"
+            android:label="@string/title_activity_plantilla_procesos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vacaUsuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeccionGerentes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuGerente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Objetivos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CargarObjetivos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EvaluarObjetivos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuestraEmpresa"
+            android:label="Bit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Editor_de_Procesos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Flujograma" />
+        <activity android:name=".ListView_personalizado" />
+        <activity
+            android:name=".Laboratorio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Jugando_con_Fuentes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Menu_Navegador_Drawer"></activity>
+    </application>
+
+</manifest>

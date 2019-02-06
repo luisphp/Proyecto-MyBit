@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="hurtado.luis.ejemplo.mybit.NuestraEmpresa">
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:id="@+id/app_bar"
+        android:fitsSystemWindows="true"
+        android:layout_height="230dp"
+        android:background="@drawable/workerdos">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:fitsSystemWindows="true"
+            android:id="@+id/CollapsingToolbarLayout1"
+            app:contentScrim="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <!--  android:src="@drawable/workerdos" -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/la_imagen"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:collapseContentDescription="Nuestra Empresa"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <!--
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/Home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/homeicon"
+                android:background="#4D72DB"
+                android:layout_weight="1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+-->
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:background="@color/gris_claro"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:elevation="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gris_claro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="La Empresa"
+                    android:textStyle="bold"
+                    android:background="@color/gris_elegante"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/textView33"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/gris_elegante"
+                    android:text="Bit Internet construye e invierte en empresas de Internet que llevan modelos de negocio en línea probados a nuevos mercados de rápido crecimiento.
+\n Bit Internet se centra en cuatro sectores de la industria de servicios minoristas en línea y móviles que representan una parte significativa del gasto de los consumidores: alimentos y comestibles, moda, mercancía en general, hogar y salud"
+                    android:id="@+id/textView55"
+                    android:layout_below="@+id/textView3"
+                     />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:elevation="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gris_claro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Misión"
+        android:textStyle="bold"
+        android:background="@color/gris_elegante"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_margin="@dimen/text_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/gris_elegante"
+        android:text="Crear la mejor experiencia para nuestros clientes y ayudar a nuestros aliados a crecer"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:elevation="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gris_claro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Visión"
+        android:textStyle="bold"
+        android:background="@color/gris_elegante"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/textView555"
+/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:textColor="@color/gris_elegante"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Ser una plataforma e-commerce 100% rentable y posicionada en el primer o segundo lugar
+        de cada uno de nuestros mercados al establecernos como la mejor experiencia de compra para nuestros clientes
+        cimentados en el equipo más talentoso, apasionado y comprometido de la industria"
+        android:id="@+id/textView632"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <LinearLayout
+                android:background="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="La Tienda en Línea con Todo"
+                    android:textStyle="bold"
+                    android:background="#6E6E6E"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:id="@+id/textView5"
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textAlignment="center"
+                    android:textColor="#6E6E6E"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Comprar en nuestra web es fácil, rápido y seguro. Buscas lo que quieres en nuestra enorme variedad de productos; encuentras, haces tu pedido y lo recibes en la puerta de tu casa pocos días después. Somos tu mejor opción para disfrutar las ventajas del e-commerce: ¡ahorras tiempo, gasolina y filas!
+Bit es la tienda en línea más grande de toda Latinoamérica. Tenemos presencia en paises su americanos, y seguimos creciendo. La satisfacción de nuestros clientes es la razón de nuestro constante crecimiento."
+                    android:id="@+id/textView6"
+                    android:layout_below="@+id/textView3"
+                    android:layout_centerHorizontal="true" />
+
+            </LinearLayout>
+
+
+
+<LinearLayout
+    android:background="#FAFAFA"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+ <ImageView
+     android:clickable="true"
+     android:onClick="facebook"
+     android:padding="20dp"
+     android:layout_weight="1"
+     android:src="@drawable/facebook"
+     android:id="@+id/facebook"
+     android:scaleType="fitCenter"
+     android:layout_width="match_parent"
+     android:adjustViewBounds="true"
+     android:layout_height="wrap_content" />
+
+    <ImageView
+        android:clickable="true"
+        android:onClick="twitter"
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/twitter"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:padding="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:src="@drawable/instagram"
+        android:id="@+id/instagram"
+        android:clickable="true"
+        android:onClick="Instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:clickable="true"
+        android:onClick="IrInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/homeicon"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end" />
+</android.support.design.widget.CoordinatorLayout>

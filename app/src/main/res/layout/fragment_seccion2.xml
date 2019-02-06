@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/gris_claro"
+    android:layout_height="match_parent">
+
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="13dp"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson2"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_marginBottom="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+</android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="13dp"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson3"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_marginBottom="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="13dp"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson4"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="13dp"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson5"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+</android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="13dp"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson6"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="13dp"
+                    android:layout_margin="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:id="@+id/mostradorjson7"
+                    android:layout_gravity="center"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:gravity="fill"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/faborito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        app:layout_anchorGravity="bottom|end"
+        android:src="@android:drawable/arrow_down_float"
+        android:layout_alignParentEnd="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+         />
+</RelativeLayout>

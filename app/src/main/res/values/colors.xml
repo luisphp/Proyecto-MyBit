@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+
+<color name="primary">#2196F3</color>
+<color name="primary_dark">#1976D2</color>
+<color name="primary_light">#BBDEFB</color>
+<color name="accent">#cddc39</color>
+<color name="primary_text">#212121</color>
+<color name="secondary_text">#727272</color>
+<color name="icons">#FFFFFF</color>
+<color name="divider">#B6B6B6</color>
+
+    <color name = "naranja">#FFBF00</color>
+<color name = "salmon">#FA8258</color>
+    <color name="verdoso">#58FAAC</color>
+    <color name="verde_oscuro">#31B404</color>
+    <color name="gris_claro">#BDBDBD</color>
+<color name="gris_elegante">#2C3E50</color>
+    <color name="rojo_maeterail">#C0392B</color>
+    <color name="morado_material">#9B59B6</color>
+</resources>

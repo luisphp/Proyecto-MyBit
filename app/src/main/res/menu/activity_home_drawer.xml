@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_candado"
+            android:title="Cambiar Contraseña" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_objetivo"
+            android:title="Mis objetivos" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_grupo"
+            android:title="Compañeros de trabajo" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_departamento"
+            android:title="Departamentos" />
+
+    </group>
+
+    <item android:title="Otros Accesos">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_seccion_gerente"
+                android:title="Sección para gerentes" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_admin"
+                android:title="Sección para Administrador" />
+        </menu>
+    </item>
+
+</menu>

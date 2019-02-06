@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:paddingBottom="6dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView_perfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Sistema de Luis Hurtado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:id="@+id/my_namel"
+        android:textSize="20dp"
+        android:layout_above="@+id/my_country"
+        android:layout_toRightOf="@+id/imageView_perfil"
+        android:layout_toEndOf="@+id/imageView_perfil" />
+
+    <TextView
+        android:id="@+id/my_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="oneillvilla@gmail.com"
+        android:textSize="17dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView_perfil"
+         />
+
+</RelativeLayout>

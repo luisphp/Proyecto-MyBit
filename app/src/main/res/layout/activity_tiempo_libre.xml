@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hurtado.luis.ejemplo.mybit.TiempoLibre">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#051E64"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Solicitar Tiempo Libre"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout">
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Días Disponibles:"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="00"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/diaslib"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="35dp" />
+            </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Días a solicitar"
+                    android:id="@+id/solicitud"
+
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <Spinner
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/spinner"
+                    android:textAlignment="center"
+                    android:scrollbarSize="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/textView8"
+                    android:layout_gravity="center" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Fecha de Inicio"
+                android:id="@+id/fecha"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center" />
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:id="@+id/datepicker1"
+
+                android:layout_height="wrap_content"
+                android:headerBackground="#051E64"
+                android:datePickerMode="calendar">
+
+            </DatePicker>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Comentario"
+                android:id="@+id/editText"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp" />
+
+
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="Ver Solicitud"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#3F51B5"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:onClick="Visor"
+                android:id="@+id/visor"
+                android:textAlignment="center"
+                android:paddingTop="40dp"
+                android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#BBDEFB"
+    android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="7dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#212121"
+                android:layout_width="match_parent"
+                android:text=""
+                android:textAlignment="center"
+
+                android:paddingTop="20dp"
+                android:id="@+id/visual"
+                android:layout_height="wrap_content" />
+</LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/solicitar"
+                android:layout_marginTop="40dp"
+                android:text="Enviar Solicitud"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="1dp"
+            android:id="@+id/texto2"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="1dp"
+            android:id="@+id/texto3"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

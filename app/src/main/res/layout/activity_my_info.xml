@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="hurtado.luis.ejemplo.mybit.MyInfo">
+
+<!--
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/la_imagen"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:elevation="3dp"
+        android:nestedScrollingEnabled="true"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/homeicon"
+        android:background="#4D72DB"
+        android:layout_weight="1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>
+
+-->
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/CollapsingToolbarLayout1"
+            app:contentScrim="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/la_imagen"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <!--
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/Home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/homeicon"
+                android:background="#4D72DB"
+                android:layout_weight="1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+-->
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:text="Nombre:"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#900C3F"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/el_nombre"
+        android:text="el_nombre"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#581845"
+        android:textIsSelectable="true" />
+    <TextView
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/el_apellido"
+        android:text="el_apellido"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#581845"
+        android:textIsSelectable="true" />
+    </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Cédula:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/la_cedula"
+                android:text="la_cedula"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Dirección:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/la_direccion"
+                android:text="la_direccion"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Teléfono:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_telefono"
+                android:text="el_telefono"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="eMail:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_email1"
+                android:text="el_mail"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="eMail Empresarial:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_email2"
+                android:text="el_mail2"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="País:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_pais"
+                android:text="el_pais"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Departamento:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_departamento"
+                android:text="el_departamento"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Cargo:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_cargo"
+                android:text="el_cargo"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Gerente:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_gerente"
+                android:text="el_gerente"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Tiempo libre disponible:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+
+    android:gravity="right"
+    android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_tiempo"
+                android:text="el_tiempo"
+                android:layout_weight="1"
+
+                android:gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:text=" días"
+
+                android:gravity="start"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Solicitar tiempo Libre"
+                    android:onClick="PedirVacaciones"
+                    android:clickable="true"
+                    android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:contextClickable="true"
+        android:text="Mis Solicitudes de Vacaciones"
+        android:onClick="VerSolicitudes"
+        android:clickable="true"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:text="Contraseña:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#900C3F"
+                android:textSize="15dp" />
+
+
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/el_password"
+                android:text="el_password"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#581845"
+                android:textIsSelectable="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Cambiar Contraseña"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="CambiarPassword" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/homeicon"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end" />
+<!-- </LinearLayout> -->
+</android.support.design.widget.CoordinatorLayout>

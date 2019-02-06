@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hurtado.luis.ejemplo.mybit.Menu_Navegador_Drawer">
+
+    <!-- A este Layout esta asociado el layout: header_menu_navegador_drawer -->
+    <!-- Referente a la guia de tutoriales de JDL: video 161 -->
+    <!-- Tambien este Layout esta asociado el layout: item_menu_navegador_drawer -->
+
+
+<FrameLayout
+    android:id="@+id/Contenido_Principal"
+    android:background="@color/morado_material"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+
+
+    <ListView
+        android:layout_gravity="start"
+        android:divider="@color/gris_elegante"
+        android:background="@color/naranja"
+        android:choiceMode="singleChoice"
+        android:id="@+id/navlist"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+
+
+</android.support.v4.widget.DrawerLayout>

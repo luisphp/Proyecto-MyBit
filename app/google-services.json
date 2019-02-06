@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "801359826070",
+    "firebase_url": "https://mybit-7481e.firebaseio.com",
+    "project_id": "mybit-7481e",
+    "storage_bucket": "mybit-7481e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801359826070:android:1d2a149307a1324a",
+        "android_client_info": {
+          "package_name": "hurtado.luis.ejemplo.mybit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801359826070-ggrmhskvig14bch8qurq293v7u6204bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiGW1QsoT69A2yOBtSdAw4dxptuGZ5oX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">MyBit</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_plantilla_procesos">PlantillaProcesos</string>
+    <string name="large_text">
+        "<b> Material is the metaphor.</b> \n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+
+    </string>
+
+    <string name="contenido">
+       " <b><center>LA IMPORTANCIA DEL CONTENIDO EN LA DECISIÓN DE COMPRA DEL CLIENTE </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+
+    </string>
+
+
+    <string name="Servicio_al_Cliente">
+               " <b><center>LA IMPORTANCIA DEL CONTENIDO SERVICIO AL CLIENTE </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+
+    <string name="Legal">
+               " <b><center>LA IMPORTANCIA DEL AREA ANTIFRAUDE </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+
+    <string name="Shipping">
+               " <b><center>LA IMPORTANCIA DE LA LOGISTICA </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+    <string name="RRHH">
+               " <b><center>LA IMPORTANCIA DEL RECURSO HUMANO </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+
+    <string name="Marketing">
+               " <b><center>LA IMPORTANCIA DEL CONTENIDO EN LA DECISIÓN DE COMPRA DEL CLIENTE </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+
+    <string name="Tecnologia">
+               " <b><center>La importancia de la tecnologia </center> </b> \n\n"
+<p>
+        "En la venta de productos por Internet (e-commerce) la información e imágenes de los productos"
+        "que el cliente visualiza en el sitio web son un factor importante para que decida efectuar una compra."
+        "Sólo cuenta con estos elementos que le comunican las características y beneficios del artículo"
+        "que desea adquirir. Por ello es fundamental contar con contenido (nombre del producto,descripción,"
+        "características principales, galería de imágenes,filtros y tabla de especificaciones) de excelente calidad,"
+        "para que el cliente obtenga una perspectiva adecuada del producto que desea adquirir, efectúe la compra"
+        "y se convierta en un comprador frecuente. \n\n"</p>
+
+        "<center><b>¿CÓMO HACER UN CONTENIDO ÓPTIMO?</b></center> \n\n"
+<p>
+        "El contenido del producto debe ser ÚNICO, es decir, con una estructura original y creativa"
+        "que llame la atención del cliente. Debe estar enfocado a ser ÚTIL al mencionar los beneficios"
+        "del producto; y finalmente debe aportar VALOR al cliente al señalar las experiencias y emociones"
+        "que obtendrá al adquirirlo.\n\n"
+
+</p>
+    </string>
+
+    <string name="Comercial" formatted="false">
+               " <b><center>Objetivo del área Comercial</center> </b> \n\n"
+<p>
+
+"Impulsar las ventas de los sellers Inbound.\n\n"
+
+"Inbound orienta y capacita un promedio de 710 registros mensuales entre los países: VE, CL, CO, PE y MX,"
+"divididos entre 5 analistas, generando un waste de 22% y alcanzando un 21% de sellers with sales.
+"Debido a los KPI’s actuales, donde el CR pesa un 60%, el equipo ha estado enfocado tanto en calidad como cantidad. \n\n"
+</p>
+    " <b><center>Nuestra Propuesta</center> </b> \n\n"
+    <p>
+"Buscando mejorar el enfoque anterior y que el equipo se involucre en el crecimiento de las ventas, se sugiere el siguiente esquema: \n\n"
+
+"•	Dividir el pool por cluster. Cluster 1: VE, PE y CL. Cluster 2: CO y MX."
+    "(Esta segmentación busca una distribución equitativa de registros y ventas) \n\n"
+
+"•	El cluster 1 manejará un aproximado de 257 registros, debido a la necesidad de capacitación"
+    "directa del analista por falta de material de apoyo. El cluster 2 gestionará un promedio"
+    "de 453 registros, ya que ambos países cuentan con entrenamientos virtuales. \n\n"
+
+
+"•	Sustituir el CR por el % de sellers con ventas en 2 meses (Periodo necesario para capacitar,"
+ "   impulsar y desarrollar la cuenta). El target para el % de sellers with sales es de 30%.\n\n"
+
+"•	Se incrementará la carga de sku’s de 10 a 30 como variación del KPI actual."
+    (Aumentando la probabilidad de ventas) Luego de 2 meses live se realizará el"
+    Handoff de las cuentas a los equipo de PDU, KAM o PSC. (Este Handoff se realizará semanalmente)\n\n"
+
+</p>
+
+    </string>
+
+
+</resources>
